@@ -12,3 +12,9 @@ th, td {
 th {
     background-color: #d1e0e0;
 }
+
+tfoot input {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+}
