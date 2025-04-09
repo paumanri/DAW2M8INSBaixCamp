@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const table = new DataTable('#taula', {
+    // Busquem la taula
+    var taula = doument.querySelector("#taula");
+    
+    // DataTable -> parametres: taula, idioma català, pagnig, searching, ordering, pageLength, lengthMenu, initComplete.
+    const table = new DataTable(taula, {
         language: {
             url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/ca.json'
         },
