@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const table = new DataTable('#taula-elements', {
+    const table = new DataTable('#taula', {
         language: {
             url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/ca.json'
         },
